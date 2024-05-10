@@ -1,31 +1,33 @@
 import org.junit.Test;
-import static org.junit.Assert.*;
+
 import java.math.BigInteger;
 
-public class OperationsTest {
+import static org.junit.Assert.*;
+
+public class OperationTest {
 
     @Test
     public void test_min() {
-        int [] mas = {7, 4, 9, 8, 1};
-        assertEquals(1, Operations._min(mas));
+        int [] mas = {4, -8, 5, 1, 0, 7, 9, 22};
+        assertEquals(-8, Operations._min(mas));
     }
 
     @Test
     public void test_max() {
-        int[] mas = {7, 4, 9, 8, 1};
-        assertEquals(9, Operations._max(mas));
+        int[] mas = {4, -8, 5, 1, 0, 7, 9, 22};
+        assertEquals(22, Operations._max(mas));
     }
 
     @Test
     public void test_sum() {
-        int[] mas = {7, 4, 9, 8, 1};
-        assertEquals(29, Operations._sum(mas));
+        int[] mas = {4, -8, 5, 1, 0, 7, 9, 22};
+        assertEquals(40, Operations._sum(mas));
     }
 
     @Test
     public void test_mult() {
-        int[] mas = {7, 4, 9, 8, 1};
-        BigInteger expected = new BigInteger("2016");
+        int[] mas = {4, -8, 5, 1, 0, 7, 9, 22};
+        BigInteger expected = new BigInteger("0");
         assertEquals(expected, Operations._mult(mas));
     }
 }
