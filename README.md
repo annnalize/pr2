@@ -1,3 +1,3 @@
-#График зависимости количества данных от времени:
-![] (https://github.com/annnalize/markdown-here/raw/master/"img.png")
+# График зависимости времени от количества данных:
+![Сделано при помощи диаграммы в Excel] (https://github.com/annnalize/pr2/blob/master/img.png)
 
