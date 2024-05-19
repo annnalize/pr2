@@ -23,7 +23,7 @@ jobs:
         distribution: 'adopt'
 
     - name: Build with Maven
-      run: mvn -B package --file /pr2/blob/master/project.iml
+      run: mvn -B package --file pr2/project.iml
 
     - name: Run tests
       run: mvn test
