@@ -9,4 +9,4 @@
 |(rand)100000  |2890   |,
 
 где `Test_mult` - количество входных данных, а `ms` - время выполнения;
-![Main Workflow](https://github.com/annnalize/pr2/actions/workflows/Check.yml/badge.svg)
+![Main Workflow](https://github.com/annnalize/pr2/actions/workflows/check.yml/badge.svg)
